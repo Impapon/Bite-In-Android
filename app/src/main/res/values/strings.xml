@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Android form class two kotlin bootcamp</string>
+    <string name="pick_image">Pick a image</string>
+    <string name="name">Enter your name</string>
+    <string name="email">Enter your email</string>
+    <string name="gender">Gender:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="time_text">05:10 PM</string>
+    <string name="date_text">01/01/21</string>
+    <string name="blood">Blood Group: </string>
+    <string name="language">Language Skills: </string>
+    <string name="bangla">Bangla</string>
+    <string name="english">English</string>
+    <string name="arabic">Arabic </string>
+    <string name="hindi">Hindi </string>
+    <string name="submit">Submit </string>
+    <string name="group">A+</string>
+    <string name="pname">Papon Sarker</string>
+
+    <string-array name="blood_group">
+
+        <item>AB+</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>B+</item>
+        <item>AB-</item>
+
+
+    </string-array>
+
+</resources>

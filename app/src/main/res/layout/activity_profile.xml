@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileimageid"
+        android:src="@drawable/profile"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_height="250dp">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+        <TextView
+            android:text="@string/pname"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:id="@+id/pnameid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/ic_email"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp">
+
+                </ImageView>
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:id="@+id/emailText"
+                    android:layout_gravity="center_vertical"
+                    android:text="PaponSarker1@gmail.com"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/ic_gender"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp">
+
+                </ImageView>
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:id="@+id/genderText"
+                    android:layout_gravity="center_vertical"
+                    android:text="Male/Female"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/ic_date"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp">
+
+                </ImageView>
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:id="@+id/dateText"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/date_text"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/ic_time"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp">
+
+                </ImageView>
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:id="@+id/timeText"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/time_text"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/ic_blood"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp">
+
+                </ImageView>
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:id="@+id/bloodText"
+                    android:layout_gravity="center_vertical"
+                    android:text="A+"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/ic_skills"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp">
+
+                </ImageView>
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:id="@+id/skillsText"
+                    android:layout_gravity="center_vertical"
+                    android:text="Bangla"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>
