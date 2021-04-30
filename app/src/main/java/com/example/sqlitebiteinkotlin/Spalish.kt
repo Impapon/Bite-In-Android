@@ -1,0 +1,11 @@
+package com.example.sqlitebiteinkotlin
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+
+class Spalish : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_spalish)
+    }
+}
