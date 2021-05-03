@@ -107,6 +107,7 @@
         android:id="@+id/pickdate"
         android:layout_margin="10dp"
         android:text="@string/date"
+        android:textStyle="bold"
         android:layout_width="0dp"
         android:layout_weight="1"
         android:layout_height="wrap_content"/>
