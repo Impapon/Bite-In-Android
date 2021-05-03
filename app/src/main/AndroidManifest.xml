@@ -9,15 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SqliteBiteInKotlin">
+        <activity android:name=".InsertActivity"></activity>
         <activity android:name=".Login"></activity>
-        <activity android:name=".Spalish" />
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".Spalish"
+            android:theme="@style/AppLauncher">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
