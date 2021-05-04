@@ -1,8 +1,11 @@
 package com.example.sqlitebiteinkotlin
 
+import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.sqlitebiteinkotlin.databinding.ActivityInsertBinding
+import com.example.sqlitebiteinkotlin.databinding.ActivityInsertBinding.bind
 import com.example.sqlitebiteinkotlin.databinding.ActivityInsertBinding.inflate
 import com.google.android.material.snackbar.Snackbar
 
@@ -31,6 +34,25 @@ class InsertActivity : AppCompatActivity() {
             else{
                 Snackbar.make(binding.insertlayoutid,"Please insert Data",Snackbar.LENGTH_LONG).show()
             }
+        }
+
+      binding.listviewid.setOnClickListener {
+          startActivity(Intent(this,MainActivity::class.java))
+      }
+
+        binding.callid.setOnClickListener {
+            val number = binding.phnnumberid.text.toString().trim()
+            if(number.isNotEmpty()){
+                val intent = Intent(Intent.ACTION_DIAL, Uri.parse("tel:$number"))
+                startActivity(intent)
+
+            }
+            else{
+                Snackbar.make(binding.insertlayoutid,"Please insert Number",Snackbar.LENGTH_LONG).show()
+            }
+        }
+        binding.youtubeid.setOnClickListener {
+            startActivity(Intent(this,YoutubeActivity::class.java))
         }
     }
 }

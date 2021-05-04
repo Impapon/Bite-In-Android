@@ -72,4 +72,38 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/emailid"
         app:layout_constraintVertical_bias="0.087" />
+
+    <EditText
+        android:id="@+id/phnnumberid"
+        android:layout_width="299dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="Enter your Phone Number"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listviewid" />
+
+    <Button
+        android:id="@+id/callid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:text="Call"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phnnumberid" />
+
+    <Button
+        android:id="@+id/youtubeid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="16dp"
+        android:text="Youtube"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phnnumberid" />
 </androidx.constraintlayout.widget.ConstraintLayout>

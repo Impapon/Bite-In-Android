@@ -64,4 +64,13 @@ class DBHelper(private val context: Context):SQLiteOpenHelper(context, DB_NAME,n
         return db.delete(TABLE_NAME,"$ID=?", arrayOf(id))
     }
 
+    fun update(user:User):Int{
+        val db = writableDatabase
+        val contentValues = ContentValues()
+        contentValues.put(NAME,user.name)
+        contentValues.put(EMAIL,user.email)
+        return db.update(TABLE_NAME,contentValues,"$ID=?", arrayOf(user.id))
+
+    }
+
 }

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Search"
+        android:id="@+id/searchId"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:icon="@drawable/ic_search"
+        app:actionViewClass="android.widget.SearchView" />
+
+
+    <item
+        android:title="Logout"
+        android:id="@+id/menulogoutid"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:title="About"
+        android:id="@+id/aboutid"
+        app:showAsAction="never"
+        />
+
+
+</menu>
