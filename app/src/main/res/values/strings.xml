@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Room Database Multiple Table</string>
+    <string-array name="department">
+        <item>Department</item>
+        <item>CSE</item>
+        <item>BBA</item>
+        <item>SE</item>
+        <item>Pharmacy</item>
+        <item>EEE</item>
+        <item>Textile</item>
+
+    </string-array>
+</resources>
